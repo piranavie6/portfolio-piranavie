@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="pira.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <header id="header">
+            <div class="overlay overlay-lg">
+                <img src="./img/shapes/square.png" class="shape square" alt="" />
+                <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+                <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+                <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+                <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+                <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+                <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+                <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+                <img src="./img/shapes/letters.png" class="letters" alt="" />
+                <img src="./img/shapes/points1.png" class="points points1" alt="" />
+            </div>
+
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <img src="th (5).jpg" alt="" />
+                    </div>
+
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="#header">Home</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <h1 class="header-title">Piranavi Easwaran</h1>
+                        <p class="text">
+                            Hello, I'm piranavi, web design and developer.
+                        </p>
+                    </div>
+
+                    <div class="column-2 image">
+                        <img src="p.png" class="points points2" alt="" />
+                        <img src="p.jpg" class="img-element z-index" alt="" />
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="What I Do">Services</h3>
+                   
+                </div>
+                <button class="Additional-info-btn" onclick="toggleAdditionalInfo()">Click for more.</button>
+  
+                 <div id="additional-info" class="additional-info">
+                   <h2>Services in Breif!</h2>
+                <p class="text">
+                    Our web development service offers comprehensive solutions to help you create and
+                    enhance your online presence. Whether you're starting from scratch or looking to
+                    revamp an existing website, our team of skilled developers and designers are here to
+                    assist you. Here's an overview of what our web development service entails
+                </p>
+   
+                </div>
+
+                <div class="cards">
+                    <div class="card-wrap">
+                        <img src="points3.png" class="points points1 points-sq" alt="" />
+                        <div class="card" data-card="UI/UX">
+                            <div class="card-content z-index">
+                                <img src="design-icon.png" class="icon" alt="" />
+                                <h3 class="title-sm">Web Design</h3>
+                                <p class="text">
+                                    We begin by understanding your business objectives, target audience, and branding
+                                    requirements. Our designers will create a visually appealing and user-friendly
+                                    website layout that aligns with your brand identity.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="Code">
+                            <div class="card-content z-index">
+                                <img src="code-icon.png" class="icon" alt="" />
+                                <h3 class="title-sm">Front-End Development</h3>
+                                <p class="text">
+                                    Our developers will translate the design into a functional website using the latest
+                                    web technologies. We ensure compatibility across different devices and browsers,
+                                    delivering an optimized experience for your users.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <img src="points3.png" class="points points2 points-sq" alt="" />
+                        <div class="card" data-card="App">
+                            <div class="card-content z-index">
+                                <img src="app-icon.png" class="icon" alt="" />
+                                <h3 class="title-sm">Back-End Development:</h3>
+                                <p class="text">
+                                    We employ robust back-end technologies to power your website and enable dynamic
+                                    functionality. This includes integrating databases, content management systems,
+                                    e-commerce platforms, and other necessary components to support your business
+                                    processes
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <div class="background-bg">
+                <div class="overlay overlay-sm">
+                    <img src="half-circle.png" class="shape half-circle1" alt="" />
+                    <img src="half-circle.png" class="shape half-circle2" alt="" />
+                    <img src="square.png" class="shape square" alt="" />
+                    <img src="wave.png" class="shape wave" alt="" />
+                    <img src="circle.png" class="shape circle" alt="" />
+                    <img src="triangle.png" class="shape triangle" alt="" />
+                    <img src="x.png" class="shape xshape" alt="" />
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="My works">Portfolio</h3>
+                </div>
+
+                <div class="section-body">
+                    <div class="filter">
+                        <button class="filter-btn active" data-filter="*">All</button>
+                        <button class="filter-btn" data-filter=".ui">Web design</button>
+                        <button class="filter-btn" data-filter=".webdev">Frontend development</button>
+                        <button class="filter-btn" data-filter=".appdev">
+                            Backend development
+                        </button>
+
+                    </div>
+                </div>
+                <div class="container">
+
+                    <div class="grid">
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <img src="th (1).jpg" alt="" />
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Design</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <img src="th (2).jpg" alt="" />
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Front end development</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <img src="th (3).jpg" alt="" />
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Backend development</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <img src="th (4).jpg" alt="" />
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Design</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <img src="th.jpg" alt="" />
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Frontend development</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <img src="ruan.jpg" alt="" />
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Backend Development</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <div class="slider">
+            <div class="slides">
+              <img src="th (1).jpg" alt="Image 1">
+              <img src="th.jpg" alt="Image 2">
+              <img src="ruan.jpg" alt="Image 3">
+            </div>
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+          </div>
+          <script>
+            const slider = document.querySelector('.slider');
+            const slides = slider.querySelector('.slides');
+            const prevBtn = slider.querySelector('.prev');
+            const nextBtn = slider.querySelector('.next');
+            
+            let slideIndex = 0;
+            const slideCount = slides.children.length;
+            
+            function showSlide(index) {
+              slides.style.transform = `translateX(-${index * 100}%)`;
+            }
+            
+            function nextSlide() {
+              slideIndex = (slideIndex + 1) % slideCount;
+              showSlide(slideIndex);
+            }
+            
+            function prevSlide() {
+              slideIndex = (slideIndex - 1 + slideCount) % slideCount;
+              showSlide(slideIndex);
+            }
+            
+            prevBtn.addEventListener('click', prevSlide);
+            nextBtn.addEventListener('click', nextSlide);
+            
+            function startSlider() {
+              setInterval(nextSlide, 2000);
+            }
+            
+            startSlider();
+            </script>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="Who Am I">About me</h3>
+                </div>
+
+                <div class="section-body grid-2">
+                    <div class="column-1">
+                        <h3 class="title-sm">Hello, I'm Piranavi</h3>
+                        <p class="text">
+                            As a web developer, I am passionate about creating innovative and functional websites that
+                            leave a lasting impression. With a strong background in coding and design, I strive to
+                            deliver high-quality solutions that meet the unique needs of my clients.
+                        </p>
+                        <div class="skills">
+                            <div class="skill html">
+                                <h3 class="skill-title">HTML</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill css">
+                                <h3 class="skill-title">CSS</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill js">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="column-2 image">
+                        <img src="points4.png" class="points" alt="" />
+                        <img src="about.png" class="z-index" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="records">
+            <div class="overlay overlay-sm">
+                <img src="square.png" alt="" class="shape square1" />
+                <img src="square.png" alt="" class="shape square2" />
+                <img src="circle.png" alt="" class="shape circle" />
+                <img src="half-circle.png" alt="" class="shape half-circle" />
+                <img src="wave.png" alt="" class="shape wave wave1" />
+                <img src="wave.png" alt="" class="shape wave wave2" />
+                <img src="x.png" alt="" class="shape xshape" />
+                <img src="triangle.png" alt="" class="shape triangle" />
+            </div>
+
+
+        </section>
+
+
+
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <h3 class="title">Get in touch</h3>
+
+                        <div class="information-wrap">
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <p class="info-text">Jaffna SriLanka</p>
+                            </div>
+
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <p class="info-text">pira@gmail.com</p>
+                            </div>
+
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <p class="info-text">123-456-789</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-form">
+                    <style>
+                        body {
+                          font-family: Arial, sans-serif;
+                          margin: 20px;
+                          
+                        }
+                    
+                        h2 {
+                          margin-bottom: 20px;
+                        }
+                    
+                        form {
+                          width: 300px;
+                          
+                        }
+                    
+                        label {
+                          display: block;
+                          margin-bottom: 5px;
+                          font-weight: bold;
+                        }
+                    
+                        input[type="text"],
+                        input[type="email"],
+                        input[type="tel"] {
+                          width: 100%;
+                          padding: 5px;
+                          margin-bottom: 10px;
+                          border-radius: 3px;
+                          border: 1px solid #ccc;
+                        }
+                    
+                        input[type="submit"] {
+                          background-color: #BFC2FF;
+                          color: white;
+                          padding: 10px 15px;
+                          border: none;
+                          border-radius: 3px;
+                          cursor: pointer;
+                        }
+                    
+                        .error {
+                          color: red;
+                          font-size: 12px;
+                          margin-top: 5px;
+                        }
+                      </style>
+                    </head>
+                    <body>
+                      <h2>Contact Form</h2>
+                      <form id="contactForm" onsubmit="validateForm(event)">
+                        <div>
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                          <label for="phone">Phone:</label>
+                          <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div>
+                          <input type="submit" value="Submit">
+                        </div>
+                      </form>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section class="hireme" id="hireme">
+            <div class="container">
+                <h3 class="title">Let's talk about a project</h3>
+                <p class="text">
+                    Looking to hire a skilled and dedicated web developer? Look no further! With expertise in front-end
+                    and back-end development, I bring a wealth of knowledge and experience to every project.
+                </p>
+                <a href="#" class="btn">Hire me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="bottom-footer">
+            <div class="copyright">
+                <p class="text">
+                    Copyright&copy;2023 All rights reserved
+                    
+
+                </p>
+            </div>
+
+            <div class="followme-wrap">
+                <div class="followme">
+                    <h3>Follow me</h3>
+                    <span class="footer-line"></span>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/pirans.easan?mibextid=ZbWKwL">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pirans.easan?mibextid=ZbWKwL">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/?original_referer=https%3A%2F%2Fsearch.yahoo.com%2F">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    
+</body>
+
+</html>
